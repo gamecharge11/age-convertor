@@ -1,0 +1,77 @@
+button{
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    border: black;
+    border-radius: 5px;
+}
+
+
+input[type="number"]{
+background-color: lime;
+border: lime;
+color: white;
+height: 30px;
+width: 170px;
+font-size: 2vw;
+border-radius: 5px;
+position: absolute;
+top: 100px;
+left: 680px;
+}
+
+h1{
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 620px;
+    width: 300px;
+    position: absolute;
+
+}
+
+body{
+    text-align: center;
+    background-color: royalblue;
+}
+
+button:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+#background{
+    width: 450px;
+    height: 500px;
+    background-color: blue;
+    margin: auto;
+    margin-left: 540px;
+    border-radius: 30px;
+}
+
+#seconds{
+    position: absolute;
+    top: 400px;
+    left: 560px;
+}
+#minutes{
+    position: absolute;
+    top: 400px;
+    left: 720px;
+}
+
+#hours{
+    position: absolute;
+    top: 400px;
+    left: 880px;
+}
+
+section
+{
+    position: absolute;
+    top: 100px;
+}
