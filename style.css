@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
 button{
     border: none;
     width: 100px;
     height: 30px;
     background-color: royalblue;
-    color: white;
+    color: black;
     font-size: 20px;
     border: black;
     border-radius: 5px;
@@ -11,9 +12,9 @@ button{
 
 
 input[type="number"]{
-background-color: lime;
+background-color: white;
 border: lime;
-color: white;
+color: black;
 height: 30px;
 width: 170px;
 font-size: 2vw;
@@ -21,22 +22,24 @@ border-radius: 5px;
 position: absolute;
 top: 100px;
 left: 680px;
+border: 3px solid black;
 }
 
 h1{
     font-size: 3vw;
-    color: white;
+    color: black;
     position: absolute;
-    top: 200px;
-    left: 620px;
+    top: 125px;
+    left: 650px;
     width: 300px;
     position: absolute;
+    width: 200px;
 
 }
 
 body{
     text-align: center;
-    background-color: royalblue;
+    background: linear-gradient(to left, blue, purple, purple);
 }
 
 button:hover{
@@ -47,7 +50,7 @@ button:hover{
 #background{
     width: 450px;
     height: 500px;
-    background-color: blue;
+    background-color: white;
     margin: auto;
     margin-left: 540px;
     border-radius: 30px;
@@ -74,4 +77,21 @@ section
 {
     position: absolute;
     top: 100px;
+}
+
+#days {
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    border: black;
+    border-radius: 5px;
+}
+h2 {
+    font-size: 2.4rem;
+}
+body {
+    font-family: 'Roboto';
 }

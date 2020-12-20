@@ -6,7 +6,7 @@ function convert_hours(){
     var leap = Number(text % 4);
     
 
-    document.getElementById("ans").innerHTML = text * amnt + leap + " hours";
+    document.getElementById("ans").innerHTML = "You have lived " + text * amnt + leap + " hours";
 }
 
 function mins(){
@@ -15,7 +15,7 @@ function mins(){
 
     
 
-    document.getElementById("ans").innerHTML = text * amnt + " minutes";
+    document.getElementById("ans").innerHTML = "You have lived " + text * amnt + " minutes";
 }
 
 function seconds(){
@@ -24,5 +24,14 @@ function seconds(){
 
     
 
-    document.getElementById("ans").innerHTML = text * amnt + " seconds";
+    document.getElementById("ans").innerHTML = "You have lived " + text * amnt + " seconds";
+}
+
+function days() {
+    var amnt = Number("365");
+    var text = Number(document.getElementById("user-age").value);
+
+
+
+    document.getElementById("ans").innerHTML = text * amnt + " days";
 }
